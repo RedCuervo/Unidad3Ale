@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Unidad3",
+    "slug": "Unidad3",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/nierSplash.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/nierSplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/nierSplash.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/nierSplash.png"
+    }
+  }
+}
