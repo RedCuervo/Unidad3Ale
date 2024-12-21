@@ -15,7 +15,7 @@ import LoginScreen2 from './src/screens/Hooks';
 import About from './src/screens/AboutScreen';
 import Info from './src/screens/InfoScreen';
 import customTheme from './src/theme/Theme';
-
+import RegisterScreen from "./src/screens/RegisterScreen";
 
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -115,6 +115,7 @@ function App(){
             <Stack.Screen name="Login">
               {() => <LoginScreen setIsAuthenticated={setIsAuthenticated}/>}
             </Stack.Screen>
+            <Stack.Screen name="Register" component={RegisterScreen} options={{ headerShown: false }}/>
             <Stack.Screen name="Drawer" component={DrawerNav} />
           </Stack.Navigator>
         </NavigationContainer>
